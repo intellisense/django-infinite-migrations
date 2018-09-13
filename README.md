@@ -9,7 +9,7 @@ Go ahead and clone this project and run multiple times:
 
 This will cause the command to generate migration again and again for this change:
 
-```
+```python
 migrations.AlterField(
     model_name='child',
     name='parent',
@@ -18,3 +18,5 @@ migrations.AlterField(
 ```
 
 which already exists in migration `0002_auto_20180913_2236.py`.
+
+Django Ticket: [#29755](https://code.djangoproject.com/ticket/29755)
